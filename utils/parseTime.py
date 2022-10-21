@@ -1,5 +1,5 @@
 from datetime import datetime
 
-def parseTime(time): 
+def parse_time(time): 
     return datetime.strptime(time, "%H:%M:%S").time()
 
